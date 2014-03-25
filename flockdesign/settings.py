@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dashboard',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -74,6 +75,13 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+    os.path.join(BASE_DIR, 'flockdesign/templates'),
+)
 
 
 # Static files (CSS, JavaScript, Images)
