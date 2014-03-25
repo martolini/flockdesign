@@ -89,6 +89,10 @@ TEMPLATE_DIRS = (
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
 TEMPLATE_LOADERS = (
     ('pyjade.ext.django.Loader',(
         'django.template.loaders.filesystem.Loader',
