@@ -1,0 +1,25 @@
+.sidebar {
+	padding: 0 0 0 0;
+	display: block;
+}
+
+body {
+	background-color: #242634;
+}
+
+.sidebar li>a {
+	color: #6f717c;
+	text-decoration: bold;
+}
+
+.sidebar li>a:hover, .sidebar li>a:focus {
+	background-color: #161720;
+	color: #fffffc;
+}
+
+
+.content {
+	background-color:#f3f3f3; 
+	min-height: 500px;
+	padding: 0 0 0 0;
+}
